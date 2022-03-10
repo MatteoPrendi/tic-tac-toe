@@ -164,3 +164,13 @@ body {
   font-family: "Sansita Swashed", cursive;
   color: hsl(211, 100%, 50%);
 }
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --cell-size: 6rem;
+  }
+  .board {
+    height: 90vh;
+  }
+}
+
